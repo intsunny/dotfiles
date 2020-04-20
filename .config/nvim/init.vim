@@ -184,6 +184,7 @@ if has('nvim')
 endif  " End of if has('nvim')
 
 " coc configuration
+" These settings are directly copied from: https://github.com/neoclide/coc.nvim/blob/master/README.md
 if has('nvim')
 	" TextEdit might fail if hidden is not set.
 	set hidden
