@@ -58,7 +58,7 @@ else
 endif
 
 " MOUSE SETTINGS
-set mouse=a		          " This enables visual mouse support in all modes
+set mouse=a             " This enables visual mouse support in all modes
                         " https://neovim.io/doc/user/options.html#'mouse'
 if !has('nvim')
   set ttymouse=xterm2   " Set mouse type to work in screen
