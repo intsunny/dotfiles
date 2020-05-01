@@ -1,5 +1,7 @@
 " Nvim configuration (compatible with vim 8)
 
+" Screenshot: https://github.com/intsunny/dotfiles/blob/master/screenshots/nvim.png
+
 " FEATURES
 """"""""""""""""""""""""""""""
 " - Have multiple clickable tabs like modern IDE's
@@ -33,11 +35,12 @@
 " This can be rather annoying, especially with more mouse interaction
 " Remap keys to use the blackhole register so that contents in the
 " clipboard are not overridden by delete actions.
+nnoremap c "_c
+vnoremap c "_c
 nnoremap dd "_dd
 vnoremap dd "_dd
 nnoremap x "_x
 vnoremap x "_x
-
 
 " GENERAL SETTINGS
 set belloff=all         " Turn off the bell for all actions.
