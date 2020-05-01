@@ -1,5 +1,7 @@
 " Nvim configuration (compatible with vim 8)
 
+" Screenshot: https://github.com/intsunny/dotfiles/blob/master/screenshots/nvim.png
+
 " FEATURES
 """"""""""""""""""""""""""""""
 " - Have multiple clickable tabs like modern IDE's
