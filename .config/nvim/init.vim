@@ -103,6 +103,7 @@ set ttyfast                    " Always set in nvim. Not default in vim 8.
 
 " Editing
 nnoremap Q <nop>                " Fuck ex mode. Burn it with the fire of a thousand suns.
+nnoremap :A :bp <BAR> bd #<CR>  " Use :A to quickly exit current buffer. Will error if buffer was edited.
 filetype plugin indent on       " TODO: Document this.
                                 " https://neovim.io/doc/user/vim_diff.html#nvim-features-removed
 set autoindent                  " Continue indentation from previous line. Not default on vim 8.
