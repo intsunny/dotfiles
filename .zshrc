@@ -9,3 +9,4 @@ autoload -Uz compinit
 compinit
 
 PROMPT="%F{green}%n@%m%f:%F{blue}%~%f%# "
+eval "$(~/.local/bin/mise activate zsh)"
