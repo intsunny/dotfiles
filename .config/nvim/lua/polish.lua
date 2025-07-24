@@ -5,3 +5,5 @@
 vim.api.nvim_create_autocmd("BufEnter", {
   command = "set nornu nu",
 })
+
+--vim.api.nvim_set_hl(0, "LineNr", { fg = "black", bg = "grey" })
