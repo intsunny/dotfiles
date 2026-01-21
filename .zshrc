@@ -1,7 +1,10 @@
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
+
 bindkey -e
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 
 zstyle :compinstall filename '/home/sunny/.zshrc'
 
